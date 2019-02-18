@@ -99,3 +99,31 @@ body {
   color: #ffffff;
   border: 0;
 }
+
+.services {
+    text-align: center;
+}
+
+.section-title {
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.section-subtitle {
+  color: #777777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+}
+
+.fas {
+  color: #fed136;
+  border: 3px solid #fed136;
+  font-size: 40px;
+  border-radius: 50%;
+}
