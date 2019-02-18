@@ -98,6 +98,7 @@ body {
   font-weight: 700;
   color: #ffffff;
   border: 0;
+  border-radius: 3px;
 }
 
 .services {
@@ -108,10 +109,11 @@ body {
   color: #222222;
   font-family: Montserrat;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 75px;
   text-transform: uppercase;
   letter-spacing: -1px;
+  margin-top: 100px;
 }
 
 .section-subtitle {
@@ -119,11 +121,22 @@ body {
   font-family: "Droid Serif";
   font-size: 16px;
   font-style: italic;
+  margin: 0;
 }
+
+.bold-text {
+  margin-top: 15px;
+}
+
 
 .fas {
   color: #fed136;
   border: 3px solid #fed136;
-  font-size: 40px;
+  font-size: 35px;
   border-radius: 50%;
+  height: 67px;
+  width: 67px;
+  line-height: 67px;
+  text-align: center;
+  margin-top: 50px;
 }
