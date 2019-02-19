@@ -5,7 +5,7 @@ body {
 
 .splash {
   height: 100vh;
-  background-image: url('https://i.postimg.cc/FHJRfmn5/Background-Image.png');
+  background-image: url("https://i.postimg.cc/FHJRfmn5/Background-Image.png");
   background-size: cover;
   margin: 0;
   z-index: 1;
@@ -24,14 +24,13 @@ body {
 }
 
 .splash-inner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 40px;
 }
-
 
 .logo p {
   color: #fed136;
@@ -50,8 +49,10 @@ body {
 }
 
 .menu {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 }
 
 .navigation, .splash-inner {
@@ -83,7 +84,7 @@ body {
 }
 
 .splash h1 {
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 75px;
   font-weight: 700;
   color: #ffffff;
@@ -102,6 +103,9 @@ body {
   border-radius: 3px;
 }
 
+.services {
+  height: 400px;
+}
 
 .section-title {
   color: #222222;
@@ -126,7 +130,6 @@ body {
   margin-top: 15px;
 }
 
-
 .fas {
   color: #fed136;
   border: 3px solid #fed136;
@@ -139,9 +142,10 @@ body {
   margin-top: 50px;
 }
 
+/* Portfolio */
 .portfolio {
   background-color: #f7f7f7;
-  padding-bottom: 100px;
+  padding: 50px 0 100px 0;
 }
 
 .text {
@@ -155,6 +159,7 @@ body {
   margin-top: 20px;
 }
 
+/* Footer */
 .social {
   width: 41px;
   height: 40px;
@@ -180,6 +185,9 @@ body {
 }
 
 .row {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
+/*# sourceMappingURL=style.css.map */
