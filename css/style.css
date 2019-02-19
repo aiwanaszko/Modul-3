@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .splash {
   height: 100vh;
   background-image: url("https://i.postimg.cc/FHJRfmn5/Background-Image.png");
@@ -103,10 +107,6 @@ body {
   border-radius: 3px;
 }
 
-.services {
-  height: 400px;
-}
-
 .section-title {
   color: #222222;
   font-family: Montserrat;
@@ -189,5 +189,17 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+}
+
+@media (max-width: 600px) {
+  .splash h2 {
+    font-size: 36px;
+  }
+  .splash h1 {
+    font-size: 48px;
+  }
+  .logo {
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
