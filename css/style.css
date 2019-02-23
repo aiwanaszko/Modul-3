@@ -33,6 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   height: inherit;
+  text-align: center;
 }
 
 
@@ -210,3 +211,17 @@ body {
       align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 768px) {
+    .splash-inner h1 {
+        font-size: 54px;
+    }
+
+    .splash-inner h2 {
+        font-size: 24px;
+    }
+
+    .btn-splash {
+      width: 150px;
+      height: 40px;
+}
