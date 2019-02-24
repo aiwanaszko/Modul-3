@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
 }
 
@@ -47,6 +48,7 @@ body {
 
 .navigation {
   position: relative;
+  width: 70%;
 }
 
 .navi {
@@ -59,6 +61,7 @@ body {
   -ms-flex-pack: end;
       justify-content: flex-end;
 }
+
 
 .navigation, .splash-inner {
   z-index: 3;
@@ -86,7 +89,7 @@ body {
   font-family: 'Lobster', cursive;
   font-size: 40px;
   color: #ffffff;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .splash h1 {
