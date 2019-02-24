@@ -86,6 +86,7 @@ body {
   font-family: 'Lobster', cursive;
   font-size: 40px;
   color: #ffffff;
+  margin: 20px 0;
 }
 
 .splash h1 {
@@ -94,6 +95,7 @@ body {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  margin: 20px 0;
 }
 
 .btn-splash {
